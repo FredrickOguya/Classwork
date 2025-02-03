@@ -1,19 +1,8 @@
-#The program computes the volume and surface area
+#receiving the principle
 
-pie = 3.14
-
-radius = int(input("Kindly enter the radius"))
-height = int(input("Kindly input the height of the cylinder"))
-
-#calculating the volume
-
-volume = 2 * pie * radius**2
-
-#calculating the Surface area
-
-TSA= 2*radius*pie*(radius*height)
-
-#output
-
-print(f"The volume of the cylinder is:{volume:.2f} cubic metres")
-print(f"The total surface area is: {TSA:.4f} square metres")
+principal = int(input("Enter the principal"))
+Rate = int(input("Enter the rate"))
+time = int(input("Enter the time"))
+SI = principal*Rate*time/100
+Total = principal+SI
+print(f"The total amount is:{Total:.2f}")
