@@ -10,5 +10,8 @@ public class thermometer {
         System.out.println("current temperature is " + currentTemp);
         if(currentTemp>30.0)
         System.out.println("It is too hot");
+        else
+        System.out.println("It is warm or cold");
+        
     }
 }
