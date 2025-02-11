@@ -1,17 +1,14 @@
-import java.awt.*;
-import java.util.Date;
 
 
 public class Main {
     public static void main (String[] args){
-        int hello_world = 5;
-        double num2 = 5.0;
-        boolean b = true;
-        char c = 'c';
-        String str = "9";
-        int tim = hello_world;
+       int x = 5;
+       int y = 7;
+       int z = 56;
+       double sum = x+ y-z;
+       double u = x /y;
+       double d = Math.pow(x,y);
 
-        
-        System.out.println(tim);
+        System.out.println(d);
     }
 } 
