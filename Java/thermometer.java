@@ -8,13 +8,12 @@ public class thermometer {
         double currentTemp = scanner.nextDouble();
 
         System.out.println("current temperature is " + currentTemp);
-        if(currentTemp>30.0){ 
-        System.out.println("It is too hot");
-        System.out.println("end of weather report");
+        if(currentTemp>30.0)
+        System.out.println("It is too hot");        
+        else if(currentTemp>18){
+            System.out.println("it is warm");
         }
         else
-        System.out.println("It is warm or cold");
-        System.out.println("end of weather report");
-        
+        System.out.println("It is warm or cold");        
     }
 }
