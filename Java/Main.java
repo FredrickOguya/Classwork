@@ -3,9 +3,14 @@ import java.util.Scanner;
 public class Main {
     public static void main (String[] args){
         Scanner sc = new Scanner(System.in);
-        String scanned = sc.next();
-        int x = Integer.parseInt(scanned);
+        String s = sc.next();
 
-        System.out.println(x);
+        if(s.equals("tim")){
+            System.out.println("You typed tim");
+        } else if (s.equals("fred")){
+            System.out.println("print");
+        } else{
+            System.out.println("hello");
+        }
     }
 } 
