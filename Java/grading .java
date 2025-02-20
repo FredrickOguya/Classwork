@@ -4,7 +4,7 @@ public class grading  {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter your marks");
-        double marks = scanner.nextDouble()
+        double marks = scanner.nextDouble();
 
         if(marks>70)
             System.out.println("A");
