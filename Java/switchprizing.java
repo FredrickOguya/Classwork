@@ -68,3 +68,5 @@ public class switchprizing {
         scanner.close();
     }  
 }
+//add a special discount($3 off for visitors coming in groups of five or more)
+//offer a free ticket for kids below 3 years of age
