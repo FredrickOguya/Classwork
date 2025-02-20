@@ -2,12 +2,17 @@ import java.util.Scanner;
 
 public class Main {
     public static void main (String[] args){
-        
-        int[] arr = {1,5,7,3,4,5};
-        for(int i=5;i< arr.length;i++){
-            if(arr[i]==5){
-            System.out.println("Found a 5! at index " + i);
-            }
-        }
+        System.out.println("Type a number: ");
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+
+        int count = 0;
+        do{
+            System.out.println("Type a number: ");
+            x = sc.nextInt();
+        }while (x!=10);
+
     }
+
+        
 } 
