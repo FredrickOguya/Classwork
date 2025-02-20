@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class primeNumber {
     public static void main (String args[]){
         System.out.println("Enter The number");
-        Scanner in = new Scanner(System.in);
+        Scanner n = new Scanner(System.in);
         
         int n = 100;
         int i = 1;
@@ -19,7 +19,7 @@ public class primeNumber {
         } 
         
         if (count == 2){
-            System.out.println(n + " is a prime number")
+            System.out.println(n + " is a prime number");
             System.out.println(sum);
         }else {
             System.out.println(n + " is not a prime number");
