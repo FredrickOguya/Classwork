@@ -12,6 +12,7 @@ public class Main {
 
         int[] nums = {2,3,54,6,6};
         int x = nums[4];
+        double[ ] nums2 = {3.9,4.5}
         System.out.println(x);
     }
 } 
