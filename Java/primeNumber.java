@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class primeNumber {
     public static void main (String args[]){
         System.out.println("Enter The number");
-        Scanner n = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
         
         int n = 100;
         int i = 1;
