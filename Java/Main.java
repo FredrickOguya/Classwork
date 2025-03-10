@@ -11,19 +11,21 @@ import java.util.TreeSet;
 
 public class Main {
     public static void main (String[] args){
-        Map m = new LinkedHashMap();
-        m.put("tim",5);
-        m.put("joe",'x');
-        m.put("11","999");
-        m.put("a","b");
-        
-        m.containsValue("b");
-        m.containsKey(5);
+        Map m = new HashMap();
 
-        m.get(5);
+        String str = "hello my name is tim and i am cool";
 
+        for(char x:str.toCharArray()){
+            if(m.containsKey(x)){
+                int old = (int) m.get(x);
+                m.put(x,old+1);
+            } else {
+                m.put(x, 1);
+            }
 
-        System.out.println(m.isEmpty());
+        }
+
+        System.out.println(str.toCharArray());
     }
 
         
