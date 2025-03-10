@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
@@ -11,21 +12,15 @@ import java.util.TreeSet;
 
 public class Main {
     public static void main (String[] args){
-        Map m = new HashMap();
+        int[] x = {-99,5,6,3,2,1,7,8,0};
 
-        String str = "hello my name is tim and i am cool";
+        Arrays.sort(x,1,7);
 
-        for(char x:str.toCharArray()){
-            if(m.containsKey(x)){
-                int old = (int) m.get(x);
-                m.put(x,old+1);
-            } else {
-                m.put(x, 1);
-            }
-
+        for(int i:x)
+        {
+           System.out.println(i+ ","); 
         }
-
-        System.out.println(str.toCharArray());
+        
     }
 
         

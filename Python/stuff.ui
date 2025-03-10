@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1118</width>
+    <width>1170</width>
     <height>925</height>
    </rect>
   </property>
@@ -29,16 +29,6 @@
     <property name="title">
      <string>Students Bio Data</string>
     </property>
-    <widget class="QLineEdit" name="lineEdit">
-     <property name="geometry">
-      <rect>
-       <x>30</x>
-       <y>60</y>
-       <width>200</width>
-       <height>30</height>
-      </rect>
-     </property>
-    </widget>
     <widget class="QPlainTextEdit" name="plainTextEdit">
      <property name="geometry">
       <rect>
@@ -47,6 +37,9 @@
        <width>80</width>
        <height>30</height>
       </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);</string>
      </property>
      <property name="plainText">
       <string>Title</string>
@@ -71,6 +64,9 @@
        <height>30</height>
       </rect>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);</string>
+     </property>
      <property name="plainText">
       <string>First Name</string>
      </property>
@@ -93,6 +89,9 @@
        <width>111</width>
        <height>30</height>
       </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);</string>
      </property>
      <property name="plainText">
       <string>Second Name</string>
@@ -117,9 +116,52 @@
        <height>30</height>
       </rect>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);</string>
+     </property>
      <property name="plainText">
       <string>Surname</string>
      </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>60</y>
+       <width>191</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>SELECT *</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>MR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>MRS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>DR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>PROFF</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SIR</string>
+      </property>
+     </item>
     </widget>
    </widget>
    <widget class="QGroupBox" name="groupBox_2">
@@ -130,6 +172,9 @@
       <width>181</width>
       <height>151</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
     </property>
     <property name="title">
      <string>Select your Gender</string>
@@ -183,6 +228,9 @@
       <height>80</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
     <property name="title">
      <string>Load your School</string>
     </property>
@@ -194,6 +242,9 @@
        <width>191</width>
        <height>27</height>
       </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
      </property>
      <item>
       <property name="text">
@@ -241,6 +292,9 @@
       <height>201</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
     <property name="title">
      <string>Choose Semester Units</string>
     </property>
@@ -252,6 +306,9 @@
        <width>161</width>
        <height>25</height>
       </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
      </property>
      <property name="text">
       <string>Python Programming</string>
@@ -266,6 +323,9 @@
        <height>25</height>
       </rect>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
      <property name="text">
       <string>Object Oriented Programming in Java</string>
      </property>
@@ -278,6 +338,9 @@
        <width>151</width>
        <height>25</height>
       </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
      </property>
      <property name="text">
       <string>Wireless Networks</string>
@@ -292,6 +355,9 @@
        <height>25</height>
       </rect>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
+     </property>
      <property name="text">
       <string>Introduction to web Programming</string>
      </property>
@@ -304,6 +370,9 @@
        <width>121</width>
        <height>25</height>
       </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);</string>
      </property>
      <property name="text">
       <string>Cyber Security</string>
@@ -319,6 +388,9 @@
       <height>161</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
     <property name="title">
      <string>Select The Action</string>
     </property>
@@ -332,7 +404,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>PushButton</string>
+      <string>Add New</string>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton_2">
@@ -345,7 +417,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>PushButton</string>
+      <string>Save</string>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton_3">
@@ -358,7 +430,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>PushButton</string>
+      <string>Modify</string>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton_4">
@@ -371,7 +443,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>PushButton</string>
+      <string>Read</string>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton_5">
@@ -383,21 +455,24 @@
        <height>27</height>
       </rect>
      </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(165, 29, 45);</string>
+     </property>
      <property name="text">
-      <string>PushButton</string>
+      <string>Delete</string>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton_6">
      <property name="geometry">
       <rect>
-       <x>630</x>
+       <x>620</x>
        <y>50</y>
-       <width>87</width>
+       <width>101</width>
        <height>27</height>
       </rect>
      </property>
      <property name="text">
-      <string>PushButton</string>
+      <string>Move Previous</string>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton_7">
@@ -410,7 +485,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>PushButton</string>
+      <string>Move Next</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="lineEdit_6">
@@ -433,7 +508,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1118</width>
+     <width>1170</width>
      <height>24</height>
     </rect>
    </property>
