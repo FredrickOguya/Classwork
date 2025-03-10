@@ -12,16 +12,15 @@ import java.util.TreeSet;
 
 public class Main {
     public static void main (String[] args){
-        int[] x = {-99,5,6,3,2,1,7,8,0};
-
-        Arrays.sort(x,1,7);
-
-        for(int i:x)
-        {
-           System.out.println(i+ ","); 
-        }
-        
+        Scanner sc = new Scanner(System.in);
+        sc.next();
+        String h = "hello";
+        h.length();
+         
+        tim();
     }
 
-        
+    public static void tim (){
+        System.out.println("Tim");
+    }
 } 
