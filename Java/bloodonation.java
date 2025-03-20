@@ -1,4 +1,6 @@
 import java.util.Scanner;
+package Java;
+
 
 public class bloodonation {
     public static void main(String[] args){

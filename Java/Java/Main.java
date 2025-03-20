@@ -23,6 +23,8 @@ public class Main {
 
         tim.setAge(10);
         tim.speak();
+
+        tim.add2()
     }
 } 
 

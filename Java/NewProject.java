@@ -8,7 +8,7 @@ public class NewProject {
     }
    
     static int largest(int a,int b){ 
-    a>b?  return a : return b;
+    String result = a>b?  String.format("a") : return b;
     }
 
 }
