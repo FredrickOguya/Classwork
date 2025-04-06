@@ -2,10 +2,9 @@ package mosh.fred;
 
 public class Main{
     public static void main(String[] args){
-        //implicit casting
-        //byte > short > int > long > float > double
-        String x = "1.1";
-        double y = Double.parseDouble(x)+2;
-        System.out.println(y);
+        int result = (int)Math.floor(1.1F);
+        result = Math.max(1,2);
+        int result2 = (int)(Math.random()*100);
+        System.out.println(result2);
     }
 }
