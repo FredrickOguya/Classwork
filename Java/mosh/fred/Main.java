@@ -2,8 +2,17 @@ package mosh.fred;
 
 public class Main{
     public static void main(String[] args){
-        int income = 120_000;
-        String className = income > 100_000 ? "First" : "Economy";
-        
+        String role = "admin";
+
+        switch(role){
+            case "admin":
+                System.out.println("You are an admin");
+                break;
+            case "moderator":
+                System.out.println("You are a moderator");
+                break;
+            default:
+                System.out.println("You are a guest");
+        }
     }
 }
