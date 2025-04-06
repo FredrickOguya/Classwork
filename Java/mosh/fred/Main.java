@@ -1,18 +1,22 @@
 package mosh.fred;
 
+import java.util.Scanner;
+
 public class Main{
     public static void main(String[] args){
-        String role = "admin";
+        Scanner scanner = new Scanner(System.in);
 
-        switch(role){
-            case "admin":
-                System.out.println("You are an admin");
-                break;
-            case "moderator":
-                System.out.println("You are a moderator");
-                break;
-            default:
-                System.out.println("You are a guest");
-        }
+        System.out.print("Number: ");
+        int number = scanner.nextInt();
+
+        if(number % 3 == 0 && number % 5 == 0 )
+            System.out.println("fizzBuzz");
+        
+        else if(number % 5 == 0)
+            System.out.println("Buzz");
+        else if(number% 3 == 0)
+            System.out.println("fizz");
+        else
+            System.out.println(number);
     }
 }
