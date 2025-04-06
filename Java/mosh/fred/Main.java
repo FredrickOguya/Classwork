@@ -1,12 +1,12 @@
 package mosh.fred;
 
-import java.text.NumberFormat;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args){
-        // 1234567
-        
-        String result = NumberFormat.getPercentInstance().format(0.1);
-        System.out.println(result);
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Name: ");
+        String name = scanner.nextLine().trim();
+        System.out.println("you are " + name);
     }
 }
