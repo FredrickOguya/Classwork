@@ -1,3 +1,5 @@
+package Java.myproject;
+
 
 public class Dog {
     
@@ -7,8 +9,6 @@ public class Dog {
     public Dog(String name, int age){
         this.name = name;
         this.age = age;
-        add2();
-        speak();
     }
     public void speak () {
         System.out.println("I am " + this.name + " and I am " + this.age + " years old");
@@ -20,7 +20,4 @@ public class Dog {
         this.age = age;
     }
 
-    private int add2() {
-        return this.age + 2;
-    }
 }

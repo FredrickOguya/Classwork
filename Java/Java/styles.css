@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d0e7ff; /* Light blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background: #ffffff; /* White background */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 500px; /* Wider form */
+    border: 2px solid #1565c0; /* Bold blue border */
+}
+
+h1 {
+    text-align: center;
+    color: #1565c0; /* Deep blue for the heading */
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #0d47a1; /* Dark blue labels */
+}
+
+form input, form select {
+    width: 100%;
+    padding: 10px; /* Bigger padding for inputs */
+    margin-bottom: 20px;
+    border: 1px solid #bbdefb; /* Soft blue border */
+    border-radius: 4px;
+    background-color: #e3f2fd; /* Light blue input background */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1565c0; /* Bold blue for the button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0d47a1; /* Darker blue for hover effect */
+}
