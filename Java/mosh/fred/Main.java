@@ -1,10 +1,12 @@
 package mosh.fred;
 
-public class Main{
+import java.text.NumberFormat;
+
+public class Main {
     public static void main(String[] args){
-        int result = (int)Math.floor(1.1F);
-        result = Math.max(1,2);
-        int result2 = (int)(Math.random()*100);
-        System.out.println(result2);
+        // 1234567
+        
+        String result = NumberFormat.getPercentInstance().format(0.1);
+        System.out.println(result);
     }
 }
