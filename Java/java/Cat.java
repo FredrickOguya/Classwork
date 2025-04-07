@@ -1,4 +1,4 @@
-package Java.myproject;
+package java;
 
 public class Cat extends Dog {
     
