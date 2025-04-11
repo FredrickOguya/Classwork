@@ -1,0 +1,18 @@
+<groceries>
+    <grocery>
+        <name>Milk</name>
+        <price>2.5</price>
+        <quantity>10</quantity>
+    </grocery>
+    <grocery>
+        <name>bread</name>
+        <price>1.00</price>
+        <quantity>20</quantity>
+    </grocery>
+    <grocery>
+        <name></name>
+        <price></price>
+        <quantity></quantity>
+    </grocery>
+
+</groceries>
