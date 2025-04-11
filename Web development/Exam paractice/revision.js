@@ -11,7 +11,7 @@ function getCurrentDateAndTime(){
     return new Date();
 };
 
-console.log(getCurrentDateAndTime());
+//console.log(getCurrentDateAndTime());
 
 //code to show example of a local and a global variable
 
@@ -19,7 +19,12 @@ var globalVar=29;
 function myFunction(){
     var localVar = 20;
 
-    console.log(globalVar)
+    //console.log(globalVar)
 }
 console.log(globalVar);
 //console.log(localVar); error
+
+//printing from 1 to 10
+for(i=0;i<=10;i++){
+    console.log(i)
+}
