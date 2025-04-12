@@ -12,3 +12,6 @@ for(i=0;i<arr.length;i++){
     sum+=arr[i];
 }
 console.log(sum);
+
+//prefered approach
+//How to approach: Initialize a variable to zero. Iterate through the array, and for each element, 	add it to the sum variable.
