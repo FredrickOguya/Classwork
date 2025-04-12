@@ -19,7 +19,7 @@ let nums = [3, 1, 4, 1, 5, 9, 2, 6];
 let maximum = nums[0];
 let minimum = nums[0];
 
-for(let i = 0;i<nums.length;i++){
+for(let i = 1;i<nums.length;i++){
     if(nums[i]>maximum){
         maximum =nums[i];
     }
